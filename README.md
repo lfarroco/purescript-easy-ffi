@@ -1,5 +1,7 @@
 # purescript-easy-ffi [![Build Status](https://travis-ci.org/pelotom/purescript-easy-ffi.svg?branch=master)](https://travis-ci.org/pelotom/purescript-easy-ffi)
 
+This repo is a fork of [pelotom/purescript-easy-ffi](https://github.com/pelotom/purescript-easy-ffi), which stopped publishing releases for updated Purescript versions.
+
 Most foreign imports in PureScript follow a familiar pattern:
 
 ```purescript
