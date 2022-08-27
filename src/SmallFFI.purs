@@ -1,4 +1,4 @@
-module Data.Foreign.EasyFFI
+module Data.Foreign.SmallFFI
   ( unsafeForeignFunction
   , unsafeForeignProcedure
   ) where

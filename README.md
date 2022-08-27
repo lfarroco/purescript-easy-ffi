@@ -1,4 +1,4 @@
-# purescript-ffi-facil
+# purescript-small-ffi
 
 This repo is a fork of [pelotom/purescript-easy-ffi](https://github.com/pelotom/purescript-easy-ffi), which stopped publishing releases for updated Purescript versions.
 
@@ -20,14 +20,14 @@ export function foo (x) {
 };
 ```
 
-Yuck! Using ffi-facil you can scrap all that boilerplate and write the above as:
+With small-ffi you can scrap all that boilerplate and write the above as:
 
 ```haskell
 foo :: Number -> Number -> Number -> Number
 foo = unsafeForeignFunction ["x", "y", "z"] "(x + y) * z"
 ```
 
-Easy! We can also define foreign functions returning monadic actions, by including an empty argument, e.g.
+We can also define foreign functions returning monadic actions, by including an empty argument, e.g.
 
 ```haskell
 log :: forall r. String -> Eff (console :: Unit | r) Unit

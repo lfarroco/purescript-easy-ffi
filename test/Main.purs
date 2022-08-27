@@ -3,9 +3,7 @@ module Test.Main where
 import Effect (Effect)
 import Effect.Console (log)
 import Data.Array (sort)
--- Import the library's module(s)
-import Data.Foreign.EasyFFI (unsafeForeignFunction)
--- Import Test.QuickCheck, which supports property-based testing
+import Data.Foreign.SmallFFI (unsafeForeignFunction)
 import Test.QuickCheck (quickCheck)
 import Prelude (Unit, const, discard, ($), (+), (==))
 
