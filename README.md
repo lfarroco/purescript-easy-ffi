@@ -1,4 +1,4 @@
-# purescript-easy-ffi [![Build Status](https://travis-ci.org/pelotom/purescript-easy-ffi.svg?branch=master)](https://travis-ci.org/pelotom/purescript-easy-ffi)
+# purescript-ffi-facil
 
 This repo is a fork of [pelotom/purescript-easy-ffi](https://github.com/pelotom/purescript-easy-ffi), which stopped publishing releases for updated Purescript versions.
 
@@ -20,7 +20,7 @@ export function foo (x) {
 };
 ```
 
-Yuck! Using Easy FFI you can scrap all that boilerplate and write the above as:
+Yuck! Using ffi-facil you can scrap all that boilerplate and write the above as:
 
 ```haskell
 foo :: Number -> Number -> Number -> Number
